@@ -1,0 +1,86 @@
+/* Structure générale */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+
+.app-header, .app-footer {
+  display: flex;
+  align-items: center;
+  background-color: #0b694a; /* Couleur de fond sombre pour le header et footer */
+  color: white; /* Couleur du texte */
+  padding: 15px 20px; /* Espace autour du contenu */
+}
+
+.app-header {
+  justify-content: space-between; /* Espace entre le logo et la navigation */
+}
+
+.app-footer {
+  background-color: #086e3e; /* Couleur spécifique pour le footer */
+  text-align: center; /* Centre le texte */
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center; /* Centre verticalement le logo */
+}
+
+
+
+.logo-image {
+  width: 70px; /* Largeur du logo */
+  height: auto; /* Hauteur automatique */
+  margin-right: 15px; /* Espace à droite du logo */
+}
+
+/* Navigation */
+.nav-list {
+  list-style-type: none; /* Supprime les puces de la liste */
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px; /* Espace entre les éléments de la navigation */
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list a {
+  color: rgb(255, 255, 255); /* Couleur des liens */
+  text-decoration: none; /* Supprime le soulignement */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s; /* Effet de transition */
+}
+
+.nav-list a:hover {
+  color: #ffcc00; /* Change la couleur au survol */
+}
+
+/* Contenu principal */
+.app-main {
+  flex: 1; /* Permet au main de s'étendre entre le header et le footer */
+  padding: 20px; /* Espace autour du contenu principal */
+/* Couleur de fond pour le contenu principal */
+}
+
+/* Footer */
+.footer-content a {
+  color: #ffcc00; /* Couleur des liens dans le footer */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+.footer-content a:hover {
+  text-decoration: underline; /* Souligne le lien au survol */
+}
+
+/* Icones */
+.icon {
+  font-size: 18px; /* Taille de l'icône */
+}

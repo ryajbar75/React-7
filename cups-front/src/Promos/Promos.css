@@ -1,0 +1,12 @@
+.promos-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.promos-container h1 {
+  color: #333; /* Couleur du titre */
+}
+
+.promos-container p {
+  color: #666; /* Couleur du texte */
+}

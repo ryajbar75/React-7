@@ -1,0 +1,15 @@
+.panier-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .panier-container h1 {
+    font-size: 2.5rem;
+    color: #6d4c41;
+  }
+  
+  .panier-container p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
