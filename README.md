@@ -1,1 +1,1 @@
-# React-7
+Cups Coffee est une application complète (full-stack) conçue pour gérer une plateforme de commande et de gestion de café. Ce projet utilise une architecture moderne pour offrir une expérience utilisateur fluide et performante.
